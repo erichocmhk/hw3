@@ -1,8 +1,16 @@
 class Person:
-    def greet(self) -> None:
-        print('Hello CMHKer!')
+    def greet(self, name: str = 'CMHK' ) -> None:
+        print('Hello {}!'.format(name))
 
 pablo = Person()
 
-pablo.greet()
+pablo.greet('Peter')
+pablo.greet('Kay')
+
+
+
+
+
+
+
 
